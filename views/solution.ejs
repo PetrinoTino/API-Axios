@@ -36,8 +36,7 @@
     
     <section id="cards" class="cards">
       <%if (locals.data) {%>
-
-        <article class="card-item">
+ <article class="card-item">
           <h2 class="card-activity">
             <%=data.activity %>
           </h2>
@@ -53,9 +52,7 @@
         </article>
 
         <%}%>
-
-
-          <%if (locals.error) {%>
+   <%if (locals.error) {%>
             <div id="tag-error" class="tag-error">
               <%=error%>
             </div>
